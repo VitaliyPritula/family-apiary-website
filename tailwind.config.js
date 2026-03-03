@@ -29,6 +29,8 @@ module.exports = {
         'golden-gradient': 'linear-gradient(135deg, hsl(36 80% 50%), hsl(40 70% 60%))',
         'primary': 'hsl(30, 80%, 50%)',
         'primary-foreground': 'hsl(39 50% 96%)',
+        'muted': 'hsl(39 25% 90%)',
+        'secondary': 'hsl(30 50% 85%)',
       }
     },
   },

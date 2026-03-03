@@ -35,7 +35,7 @@ export default function Home() {
 					<span className={`transition-opacity duration-700 ${mounted ? "opacity-100" : "opacity-0"}`}>з власної пасіки</span>
 				</h1>
 				<p className="text-cream/80 text-lg md:text-xl font-light max-w-xl mx-auto mb-10">
-					Без домішок, без посередників. Чистий мед від сім'ї, яка займається бджільництвом понад 10 років.
+					Без домішок, без посередників. Чистий мед від сім&apos;ї, яка займається бджільництвом понад 10 років.
 				</p>
 				<div className="flex flex-col md:flex-row gap-4 justify-center">
 					<Button
