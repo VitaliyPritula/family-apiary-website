@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "./components/layout/header/Header";
+import Footer from "./components/layout/footer/Footer";
 import Cartdrawer from "./components/contants/CartDrawer";
 import "./globals.css";
 
@@ -31,7 +32,8 @@ export default function RootLayout({
       >
         <Header />
         <Cartdrawer />
-        <main className="">{children}</main>
+        <main className="relative">{children}</main>
+        <Footer />
       </body>
     </html>
   );
