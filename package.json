@@ -14,7 +14,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.574.0",
-    "next": "15.3.1",
+    "next": "^16.1.6",
     "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dialog": "^0.1.0",
