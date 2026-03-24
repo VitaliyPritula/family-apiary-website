@@ -12,7 +12,7 @@ const ContactSection = () => {
           Замовляйте натуральний мед напряму від пасічника. Доставка по всій Україні.
         </p>
 
-        <div className="grid sm:grid-cols-2 gap-6 mb-12">
+        <div className="grid md:grid-cols-2 gap-6 mb-12">
           <div className="bg-[#faf6f0] rounded-lg p-6 shadow-sm border border-border">
             <Phone className="w-8 h-8 text-[#e69419] mx-auto mb-3" />
             <h3 className="font-display font-semibold text-lg mb-1 text-[#32241b]">Телефон</h3>
@@ -28,11 +28,11 @@ const ContactSection = () => {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-wrap md:flex-nowrap gap-4 justify-center">
           <Button
             asChild
             size="lg"
-            className="bg-[linear-gradient(135deg,_#e69419,_#e0b152)] text-primary-foreground font-semibold text-base px-8 hover:opacity-90 transition-opacity"
+            className="bg-[linear-gradient(135deg,_#e69419,_#e0b152)] w-full text-primary-foreground font-semibold text-base px-8 hover:opacity-90 transition-opacity"
           >
             <a href="https://t.me/+380990366231/" target="_blank" rel="noopener noreferrer">
               <Send className="w-5 h-5 mr-2" />
@@ -43,7 +43,7 @@ const ContactSection = () => {
             asChild
             size="lg"
             variant="outline"
-            className="border-2 border-[#e0b152] rounded-[18px]  bg-[#faf6f0] text-[#32241b] font-semibold text-base px-8 hover:bg-primary/10"
+            className="border-2 w-full border-[#e0b152] rounded-[18px]  bg-[#faf6f0] text-[#32241b] font-semibold text-base px-8 hover:bg-primary/10"
           >
             <a href="viber://chat?number=+380990366231/" target="_blank" rel="noopener noreferrer">
               <MessageCircle className="w-5 h-5 mr-2" />
