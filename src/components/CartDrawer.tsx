@@ -81,8 +81,8 @@ export default function Cartdrawer() {
             >
                 Очистити кошик
               </button>
-                <a
-                  href="/Checkout"
+              <a
+                href="/Checkout"
                 onClick={() => setOpen(false)}
                 className="block w-full bg-golden-gradient text-primary-foreground text-sm font-semibold px-5 py-3 rounded-lg text-center hover:opacity-90 transition-opacity"
               >

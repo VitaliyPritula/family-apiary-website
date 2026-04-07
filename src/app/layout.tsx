@@ -1,8 +1,8 @@
 import Cartdrawer from "@/app/components/CartDrawer";
+import Footer from "@/app/components/layout/footer/Footer";
+import Header from "@/app/components/layout/header/Header";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Footer from "./components/layout/footer/Footer";
-import Header from "./components/layout/header/Header";
 import JsonLd from "./JsonLd";
 
 import "./globals.css";
