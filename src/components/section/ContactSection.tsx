@@ -45,7 +45,7 @@ const ContactSection = () => {
             variant="outline"
             className="border-2 w-full border-[#e0b152] rounded-[18px]  bg-[#faf6f0] text-[#32241b] font-semibold text-base px-8 hover:bg-primary/10"
           >
-            <a href="viber://chat?number=+380990366231/" target="_blank" rel="noopener noreferrer">
+            <a href="https://viber.click/+380990366231/" target="_blank" rel="noopener noreferrer">
               <MessageCircle className="w-5 h-5 mr-2" />
               Viber
             </a>
